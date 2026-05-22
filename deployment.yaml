@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: devops-app
-        image: YOUR_DOCKERHUB_USERNAME/devops-app:latest
+        image: abdulrahman5234/devops-app:latest
         ports:
         - containerPort: 3000
         env:
